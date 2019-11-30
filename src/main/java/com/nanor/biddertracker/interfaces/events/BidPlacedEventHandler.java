@@ -1,11 +1,10 @@
 package com.nanor.biddertracker.interfaces.events;
 
 import com.nanor.bidcapture.domain.model.events.BidPlaced;
-import com.nanor.biddertracker.application.internal.businessusecases.TrackBidder;
+import com.nanor.biddertracker.application.internal.commandservices.TrackBidder;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.event.TransactionalEventListener;
 
 /**
  * Event Handler for the Bid Placed Event that the Bidder Tracker is interested in

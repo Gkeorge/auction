@@ -1,4 +1,4 @@
-package com.nanor.bidcapture.application.businessusecases;
+package com.nanor.bidcapture.application.commandservices;
 
 import com.nanor.bidcapture.domain.model.BidCapture;
 import com.nanor.bidcapture.domain.model.Offer;

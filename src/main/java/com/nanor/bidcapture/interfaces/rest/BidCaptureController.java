@@ -1,6 +1,6 @@
 package com.nanor.bidcapture.interfaces.rest;
 
-import com.nanor.bidcapture.application.businessusecases.BidOnAuction;
+import com.nanor.bidcapture.application.commandservices.BidOnAuction;
 import com.nanor.bidcapture.interfaces.rest.dto.BidResource;
 import com.nanor.shared.Money;
 import lombok.RequiredArgsConstructor;

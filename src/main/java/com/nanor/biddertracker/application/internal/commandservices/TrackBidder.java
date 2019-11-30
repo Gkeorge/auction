@@ -1,4 +1,4 @@
-package com.nanor.biddertracker.application.internal.businessusecases;
+package com.nanor.biddertracker.application.internal.commandservices;
 
 import com.nanor.bidcapture.domain.model.events.BidPlaced;
 import com.nanor.biddertracker.domain.model.Bidder;
